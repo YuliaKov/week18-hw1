@@ -1,0 +1,58 @@
+.container {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.task-block {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#taskInput {
+    width: 300px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.add_task_btn {
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-list li {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clear_tasks_btn {
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.no_tasks_message {
+    color: grey;
+    display: none;
+}
+
